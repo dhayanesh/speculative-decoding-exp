@@ -20,7 +20,7 @@ This repo contains two experiment tracks:
 - `num_speculative_tokens=4` (speculative runs)
 - Sampling: `temperature=0.0`, `top_p=1.0`
 
-## draft_model vs eagle3 - Comparison Results (`compare/README.md`)
+## draft_model vs eagle3 - Comparison Results (`comparison/README.md`)
 
 ### Normal inference
 | Technique | Inference time (s) | Acceptance | Accepted / Draft tokens | Mean acceptance length |
@@ -36,7 +36,7 @@ This repo contains two experiment tracks:
 | draft_model | 9.245 | 50.59% | 342 / 676 | 3.02 |
 | eagle3 | 8.886 | 32.92% | 291 / 884 | 2.32 |
 
-## Acceptance Results (`improve/README.md`)
+## Acceptance Results (`acceptance_analysis/README.md`)
 
 ### Prompt-type/length study (8 cases)
 | Case | Category | Prompt tokens | Base time (s) | Draft time (s) | Draft acc (%) | Eagle3 time (s) | Eagle3 acc (%) |
